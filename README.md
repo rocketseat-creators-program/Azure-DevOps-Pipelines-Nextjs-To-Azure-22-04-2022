@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-## Getting Started
+# Criando pipelines de CI e CD de uma aplicação Next.JS com Azure DevOps e Azure Web App
 
-First, run the development server:
+Ao final desta aula teremos um fluxo completo de CI/CD de maneira profissional e pronto para produção de uma aplicação Next.js, com pipelines do Azure DevOps e implantação em um Azure Web App. Apresentado por [Wilson Neto][1].
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Instalação
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Basta baixar usando <br />`git clone https://github.com/wilsonneto-dev/Azure-DevOps-Pipelines-Nextjs-To-Azure-22-04-2022.git`
+2. Instalar as dependências <br />`npm i`
+3. Para executar executar <br />`npm run dev`
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Sobre a Aula
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Nesta aula irei mostrar como criar um fluxo de Continous Integration e Continous Deployment (CI/CD) de uma aplicação Next.js utilizando Azure DevOps para o pipeline e utilizando Azure Web App para implantação da aplicação.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Link e informações de apoio
 
-## Learn More
+- Link Azure:<br />
+https://portal.azure.com/
 
-To learn more about Next.js, take a look at the following resources:
+- Links mock api utilizada no exemmplo:<br />
+https://material-ui.com/store/items/devias-kit/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Azure DevOps:
+https://dev.azure.com/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Form de Solicitação de Minutos Frees no Azure DevOps:
+https://625cadf64c36c7535768d809.mockapi.io/api/movies
 
-## Deploy on Vercel
+## Expert
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| [<img src="https://github.com/wilsonneto-dev.png" width="75px;"/>][1] |
+| :-: |
+|[Creator][1]|
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+[1]: https://seusite.com.br
