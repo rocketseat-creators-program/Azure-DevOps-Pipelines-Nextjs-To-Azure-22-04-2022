@@ -14,12 +14,12 @@ const Home: NextPage<IHomeProps> = ({ items, date }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Example list</title>
+        <title>Experts Example list</title>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="#">the list!</a>
+          Welcome to <a href="#">the experts list!</a>
         </h1>
         <div className={styles.grid}>
           { items.map(item => 
