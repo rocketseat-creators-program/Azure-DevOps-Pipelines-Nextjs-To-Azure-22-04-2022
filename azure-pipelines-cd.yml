@@ -35,7 +35,7 @@ stages:
       displayName: Publish do Artifact
       inputs:
         targetPath: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip' 
-        artifactName: $(artifactWebApp)
+        artifactName: $(artifactName)
 
 - stage: DeployInAzureWebAppByCode
   displayName: Deploy in Azure WebApp by Code
