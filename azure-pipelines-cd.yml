@@ -54,7 +54,7 @@ stages:
             displayName: Download do Artifact
             inputs:
               buildType: 'current'
-              artifactName: $(artifactWebApp)
+              artifactName: $(artifactName)
               targetPath: '$(System.DefaultWorkingDirectory)/publish'
         
           - task: AzureWebApp@1
